@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'ReceiptPrint.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ReceiptData',
+        'NAME': 'receiptprint',
         'PORT':'5432',
-        'USER':'postgres',
-        'PASSWORD':'abhi',
-        'HOST':'localhost',
+        'USER':'receiptprint_user',
+        'PASSWORD':'T6DNUGYRqfqHxeKciFTOYHugvDGly7PY',
+        'HOST':'dpg-cuoomat6l47c73cfhhrg-a',
     }
 }
 
